@@ -14,7 +14,7 @@
 <body>
     <header>
         <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col">
                         <form class="d-flex justify-content-between">
@@ -30,7 +30,7 @@
 
     <main>
         <div class="container d-flex">
-            <div class="my_class-nav">
+            <div class="my_class-nav-verticale">
                 <nav class="d-flex-column text-center">
                     <ul>
                         <li>
@@ -52,19 +52,25 @@
             </div>
 
             <div>
-                <h2>
-                    Nuovo Studente <span>+</span>
-                </h2>
-        
-                <h1>
-                    Boolean
-                </h1>
-        
-                <p>
-                    Studenti online negli utlimi 30 minuti<br>125
-                </p>
-        
-                <div class="container mb-3 border">
+                <div class="container my_class-background-color text-white">
+                    <div class="row">
+                        <div class="col">
+                            <h2>
+                                Nuovo Studente <span>+</span>
+                            </h2>
+                    
+                            <h1>
+                                Boolean Piano Blaze
+                            </h1>
+                            <p>3 app</p>
+                            <p>
+                                Studenti online negli utlimi 30 minuti<br>125
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
                     <div class="row">
                         <div class="col">
                                 <table class="table">
@@ -72,8 +78,8 @@
                                     <thead>
                                         <tr>
                                             <th scope="col">Nome</th>
-                                            <th scope="col">Data inizio</th>
-                                            <th scope="col">ROI</th>
+                                            <th class="my_class-md" scope="col">Data inizio</th>
+                                            <th class="my_class-md" scope="col">ROI</th>
                                             <th scope="col">Stato</th>
                                             <th scope="col">Azioni</th>
                                         </tr>
@@ -82,64 +88,64 @@
                                     <tbody>
                                         <tr>
                                             <th scope="row">Class 75</th>
-                                            <td>15 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="my_class-md">15 Feb 2021</td>
+                                            <td class="my_class-md">20%</td>
                                             <td>Done</td>
                                             <td>&star; &star;</td>
                                         </tr>
                                         
                                         <tr>
                                             <th scope="row">Class 76</th>
-                                            <td>15 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="my_class-md">15 Feb 2021</td>
+                                            <td class="my_class-md">20%</td>
                                             <td>Done</td>
                                             <td>&star; &star;</td>
                                         </tr>
                                         
                                         <tr>
                                             <th scope="row">Class 77</th>
-                                            <td>15 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="my_class-md">15 Feb 2021</td>
+                                            <td class="my_class-md">20%</td>
                                             <td>Done</td>
                                             <td>&star; &star;</td>
                                         </tr>
     
                                         <tr>
                                             <th scope="row">Class 78</th>
-                                            <td>15 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="my_class-md">15 Feb 2021</td>
+                                            <td class="my_class-md">20%</td>
                                             <td>Done</td>
                                             <td>&star; &star;</td>
                                         </tr>
     
                                         <tr>
                                             <th scope="row">Class 79</th>
-                                            <td>15 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="my_class-md">15 Feb 2021</td>
+                                            <td class="my_class-md">20%</td>
                                             <td>Done</td>
                                             <td>&star; &star;</td>
                                         </tr>
                                         
                                         <tr>
                                             <th scope="row">Class 80</th>
-                                            <td>15 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="my_class-md">15 Feb 2021</td>
+                                            <td class="my_class-md">20%</td>
                                             <td>Done</td>
                                             <td>&star; &star;</td>
                                         </tr>
                                         
                                         <tr>
                                             <th scope="row">Class 81</th>
-                                            <td>15 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="my_class-md">15 Feb 2021</td>
+                                            <td class="my_class-md">20%</td>
                                             <td>Done</td>
                                             <td>&star; &star;</td>
                                         </tr>
     
                                         <tr>
                                             <th scope="row">Class 82</th>
-                                            <td>15 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="my_class-md">15 Feb 2021</td>
+                                            <td class="my_class-md">20%</td>
                                             <td>Done</td>
                                             <td>&star; &star;</td>
                                         </tr>
@@ -149,75 +155,44 @@
                     </div>
                 </div>
         
-                <div class="container">
+                
                     <div class="row">
                         <div class="col">
-                            <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                            <select class="form-select form-select-md" aria-label="Small select example">
+                                <option selected>Come aggiungere un nuovo studente?</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <select class="form-select form-select-md" aria-label="Small select example">
+                                <option selected>Come posso accedere alle informazioni del mio account?</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <select class="form-select form-select-md mb-3" aria-label="Small select example">
+                                <option selected>Posso usare questa dashboard da mobile?</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <select class="form-checks" aria-label="Default select example">
                                 <option selected>Open this select menu</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
                             </select>
-                            
-                            <select class="form-select form-select-sm" aria-label="Small select example">
-                                <option selected>Open this select menu</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <ul class="list-group">
-                                <li class="list-group-item disabled" aria-disabled="true">A disabled item</li>
-                                <li class="list-group-item">A second item</li>
-                                <li class="list-group-item">A third item</li>
-                                <li class="list-group-item">A fourth item</li>
-                                <li class="list-group-item">And a fifth one</li>
-                              </ul>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">
-                                  Default checkbox
-                                </label>
-                              </div>
-                              <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                <label class="form-check-label" for="flexCheckChecked">
-                                  Checked checkbox
-                                </label>
-                              </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <ul class="list-group">
-                                <li class="list-group-item disabled" aria-disabled="true">A disabled item</li>
-                                <li class="list-group-item">A second item</li>
-                                <li class="list-group-item">A third item</li>
-                                <li class="list-group-item">A fourth item</li>
-                                <li class="list-group-item">And a fifth one</li>
-                              </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-            
-        
     </main>
 
-    <footer>
-
-    </footer>
-    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
