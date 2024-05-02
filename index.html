@@ -14,10 +14,10 @@
 <body>
     <header>
         <nav class="navbar bg-body-tertiary">
-            <div class="container">
+            <div class="my_nav container">
                 <div class="row">
                     <div class="col">
-                        <form class="d-flex justify-content-between">
+                        <form>
                             <img style="height: 3rem" src="Esercizio/img/mobile-logo.png" alt="Logo Boolean">
                             <input class="my_background-color form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Search</button>
@@ -29,7 +29,9 @@
     </header>
 
     <main>
-        <div class="container d-flex">
+        <!--div divisiorio per nav verticale-->
+        <div class="d-flex">
+            
             <div class="my_class-nav-verticale">
                 <nav class="d-flex-column text-center">
                     <ul>
@@ -51,9 +53,11 @@
                 </nav>
             </div>
 
-            <div>
-                <div class="container my_class-background-color text-white">
-                    <div class="row">
+            <!--div divisiorio per nav verticale-->
+            <div class="my_class-vh-vw">
+                
+                <div class="container mb-3 text-white">
+                    <div class="row my_class-background-color">
                         <div class="col">
                             <h2>
                                 Nuovo Studente <span>+</span>
@@ -68,13 +72,15 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                
-                <div class="container">
+
+                    <!--PROSSIME CLASSI-->
                     <div class="row">
-                        <div class="col">
+                        <div class="col-12 col-lg-8">
+                            <div class="card" style="width: 95vw;">
+                                <div class="card-header fs-3">
+                                    Prossime classi
+                                </div>
                                 <table class="table">
-                                
                                     <thead>
                                         <tr>
                                             <th scope="col">Nome</th>
@@ -84,7 +90,6 @@
                                             <th scope="col">Azioni</th>
                                         </tr>
                                     </thead>
-                                    
                                     <tbody>
                                         <tr>
                                             <th scope="row">Class 75</th>
@@ -151,41 +156,75 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                        </div>
-                    </div>
-                </div>
-        
-                
-                    <div class="row">
-                        <div class="col">
-                            <select class="form-select form-select-md" aria-label="Small select example">
-                                <option selected>Come aggiungere un nuovo studente?</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                            <select class="form-select form-select-md" aria-label="Small select example">
-                                <option selected>Come posso accedere alle informazioni del mio account?</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                            <select class="form-select form-select-md mb-3" aria-label="Small select example">
-                                <option selected>Posso usare questa dashboard da mobile?</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
+                            </div>
                         </div>
                     </div>
 
+                    <!--F.A.Q.-->
                     <div class="row">
-                        <div class="col">
-                            <div class="input-group mb-3">
-                                <div class="input-group-text">
-                                    <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                        <div class="col-12 col-lg-8">
+                            <div class="card mb-3" style="width: 95vw;">
+                                <div class="card-header fs-3">
+                                    F.A.Q.
                                 </div>
-                                    
+                                
+                                <select class="rounded-0 border-top-0 border-start-0 border-end-0 form-select form-select-md" aria-label="Large select example">
+                                    <option selected>Come aggiungere un nuovo studente?</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+
+                                <select class="rounded-0 border-top-0 border-start-0 border-end-0 form-select form-select-md" aria-label="Small select example">
+                                    <option selected>Come posso accedere alle informazioni del mio account?</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+
+                                <select class="border-0 form-select form-select-md" aria-label="Small select example">
+                                    <option selected>Posso usare questa dashboard da mobile?</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--div-todo-->
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <div class="card" style="width: 95vw;">
+                                <div class="card-header fs-3">
+                                Todo
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><input type="checkbox"> Kickoff nuiove classi </li>
+                                    <li class="list-group-item"><input type="checkbox"> Lezione su Boostrap 5 in classe #75 </li>
+                                    <li class="list-group-item"><input type="checkbox"> Controllo username github studenti </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--UTENTU ATTIVI-->
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="Esercizio/img/stats.jpeg" class="card-img-top" alt="stats">
+                                <div class="card-body">
+                                    <h5 class="card-title">Utenti attivi</h5>
+                                    <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Gennaio: 1200</li>
+                                    <li class="list-group-item">Febbraio 800</li>
+                                    <li class="list-group-item">Marzo: 1500</li>
+                                </ul>
+                                <div class="card-body">
+                                    <a href="#" class="card-link">Visualizza report approfondito</a>
+                                </div>
                             </div>
                         </div>
                     </div>
