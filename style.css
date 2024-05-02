@@ -2,8 +2,31 @@
     font-family: Roboto;
 }
 
-input.my_background-color {
+input.my_class-bg-color {
     background-color: #e5e5e5;
+    padding-right: 13rem;
+}
+
+span.my_fs {
+    font-size: .7rem;
+    background-color: #155ab9;
+    padding: .1rem .5rem .1rem .5rem;
+    border-radius: .6rem;
+}
+
+span.my_fs_special {
+    font-size: .7rem;
+    background-color: #155ab9;
+    padding: .24rem .5rem .24rem .5rem;
+    border-radius: 50%;
+}
+
+span.my_span {
+    border: solid white;
+    padding: .2rem .5rem .2rem .5rem;
+    border-radius: .2rem;
+    border-width: .08rem;
+    margin-left: .8rem;
 }
 
 ul {
@@ -13,8 +36,13 @@ ul {
     margin-left: 0;
 }
 
+.my_class-background-color {
+    background-color: #1b72e8;
+    width: 100vw;
+}
+
 .my_class-nav-verticale {
-    height: 100vh;
+    height: 145vh;
     width: 200px;
     background-color: #0f253b;
     color: white;
@@ -24,14 +52,8 @@ ul {
     width: 100vw;
 }
 
-.my_class-background-color {
-    background-color: #1b72e8;
-    width: 100vw;
-}
-
-div.my_class-vh-vw {
-    height: 100vh;
-    width: 100vw;
+img.my_height {
+    height: 50px;
 }
 
 

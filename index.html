@@ -14,16 +14,12 @@
 <body>
     <header>
         <nav class="navbar bg-body-tertiary">
-            <div class="my_nav container">
-                <div class="row">
-                    <div class="col">
-                        <form>
-                            <img style="height: 3rem" src="Esercizio/img/mobile-logo.png" alt="Logo Boolean">
-                            <input class="my_background-color form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
+            <div class="bg-white container d-flex justify-content-between">
+                <img class="my_height" src="Esercizio/img/mobile-logo.png" alt="logo">
+                <form class="d-flex" role="search">
+                    <input class="my_class-bg-color form-control me-2" type="search" placeholder="🔍 Prova a cercare: Lezioni di Lavarel" aria-label="Search">
+                </form>
+                <span>🔔</span>
             </div>
         </nav>
     </header>
@@ -33,20 +29,20 @@
         <div class="d-flex">
             
             <div class="my_class-nav-verticale">
-                <nav class="d-flex-column text-center">
+                <nav class="d-flex-column text-center mt-3">
                     <ul>
-                        <li>
+                        <li class="fs-1">
                             <span>&#8962;</span>
                         </li>
-                        <li>
+                        <li class="fs-1">
                             <span>&#x2255;</span>
                         </li>
-                        <li>
+                        <li class="fs-1">
                             <span>&#x2255;</span>
                         </li>
                     </ul>
                     <ul>
-                        <li>
+                        <li class="fs-1">
                             <span>&#x2255;</span>
                         </li>
                     </ul>
@@ -54,29 +50,30 @@
             </div>
 
             <!--div divisiorio per nav verticale-->
-            <div class="my_class-vh-vw">
+            <div>
                 
-                <div class="container mb-3 text-white">
-                    <div class="row my_class-background-color">
+                <!--INIZIO PARTE BLU-->
+                <div class="container text-white">
+                    <div class="row mb-3 my_class-background-color">
                         <div class="col">
-                            <h2>
-                                Nuovo Studente <span>+</span>
+                            <h2 class="fs-6 pt-4 pb-4">
+                                Nuovo Studente <span class="my_span">+</span>
                             </h2>
                     
-                            <h1>
-                                Boolean Piano Blaze
+                            <h1 class="fs-3">
+                                Boolean <span class="my_fs">Piano blaze</span>
                             </h1>
-                            <p>3 app</p>
-                            <p>
-                                Studenti online negli utlimi 30 minuti<br>125
+                            <p><span class="my_fs">3 app</span> <span>&#10174;</span> <span class="my_fs_special">+</span></p>
+                            <p class="fs-6">
+                                Studenti online negli utlimi 30 minuti<br><span class="fs-3">125</span>
                             </p>
                         </div>
                     </div>
 
                     <!--PROSSIME CLASSI-->
-                    <div class="row">
+                    <div class="row mb-3 d-flex">
                         <div class="col-12 col-lg-8">
-                            <div class="card" style="width: 95vw;">
+                            <div class="card" style="width: 100%">
                                 <div class="card-header fs-3">
                                     Prossime classi
                                 </div>
@@ -161,9 +158,9 @@
                     </div>
 
                     <!--F.A.Q.-->
-                    <div class="row">
+                    <div class="row mb-3 d-flex">
                         <div class="col-12 col-lg-8">
-                            <div class="card mb-3" style="width: 95vw;">
+                            <div class="card" style="width: 100%">
                                 <div class="card-header fs-3">
                                     F.A.Q.
                                 </div>
@@ -193,9 +190,9 @@
                     </div>
 
                     <!--div-todo-->
-                    <div class="row">
+                    <div class="row mb-3 d-flex">
                         <div class="col-12 col-lg-4">
-                            <div class="card" style="width: 95vw;">
+                            <div class="card" style="width: 100%">
                                 <div class="card-header fs-3">
                                 Todo
                                 </div>
@@ -208,10 +205,10 @@
                         </div>
                     </div>
 
-                    <!--UTENTU ATTIVI-->
-                    <div class="row">
+                    <!--UTENTI ATTIVI-->
+                    <div class="row d-flex">
                         <div class="col-12 col-lg-4">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card" style="width: 100%">
                                 <img src="Esercizio/img/stats.jpeg" class="card-img-top" alt="stats">
                                 <div class="card-body">
                                     <h5 class="card-title">Utenti attivi</h5>
