@@ -4,7 +4,29 @@
 
 input.my_class-bg-color {
     background-color: #e5e5e5;
-    padding-right: 13rem;
+    width: 25rem;
+}
+
+@media screen and (min-width: 576px) {
+    span.my_class-display-nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    input.my_class-bg-color {
+        width: 38rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    input.my_class-bg-color {
+        width: 50rem;
+    }
+
+    span.my_class-display-nav {
+        display: inline-block;
+    }
 }
 
 span.my_fs {
@@ -55,5 +77,6 @@ ul {
 img.my_height {
     height: 50px;
 }
+
 
 
