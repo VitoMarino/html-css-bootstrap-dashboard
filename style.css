@@ -52,12 +52,11 @@ ul {
 
 .my_class-background-color {
     background-color: #1b72e8;
-    width: 100vw;
 }
 
 .my_class-nav-verticale {
     height: 145vh;
-    width: 200px;
+    width: 65px;
     background-color: #0f253b;
     color: white;
 }
@@ -76,10 +75,7 @@ button.my_class-button {
     border-width: .08rem;
 }
 
-@media screen and (min-width: 768px) {
-    div.my_class-media {
-        display: flex;
-    }
+div.my_class-div {
+    width: calc(100vw - 65px);
 }
-
 
