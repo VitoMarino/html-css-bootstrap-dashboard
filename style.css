@@ -9,62 +9,7 @@ ul {
     margin-left: 0;
 }
 
-input.my_class-bg-color {
-    background-color: #e5e5e5;
-    width: 25rem;
-}
-
-@media screen and (min-width: 576px) {
-    span.my_class-display-nav {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    input.my_class-bg-color {
-        width: 38rem;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    input.my_class-bg-color {
-        width: 50rem;
-    }
-
-    span.my_class-display-nav {
-        display: inline-block;
-    }
-}
-
-span.my_fs {
-    font-size: .7rem;
-    background-color: #155ab9;
-    padding: .1rem .5rem .1rem .5rem;
-    border-radius: .6rem;
-}
-
-span.my_fs_special {
-    font-size: .7rem;
-    background-color: #155ab9;
-    padding: .24rem .5rem .24rem .5rem;
-    border-radius: 50%;
-}
-
-.my_class-background-color {
-    background-color: #1b72e8;
-}
-
-.my_class-nav-verticale {
-    height: 145vh;
-    width: 65px;
-    background-color: #0f253b;
-    color: white;
-}
-
-.my_nav {
-    width: 100vw;
-}
-
+/*HEADER*/
 img.my_height-display {
     height: 50px;
 }
@@ -84,13 +29,83 @@ img.my_height-display {
     }
 }
 
+input.my_class-bg-color {
+    background-color: #e5e5e5;
+    width: 25rem;
+}
+
+@media screen and (min-width: 576px) {
+    span.my_class-display-nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    input.my_class-bg-color {
+        width: 38rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    input.my_class-bg-color {
+        width: 45rem;
+    }
+
+    span.my_class-display-nav {
+        display: inline-block;
+    }
+}
+
+/*MAIN*/
+.my_class-nav-2 {
+    width: 100px;
+}
+
+.my_class-nav-1200px {
+    font-size: .7rem;
+}
+
+span.my_class-nav-1200pxx {
+    font-size: 1rem;
+}
+
+div.my_class-div {
+    width: calc(100vw - 65px);
+}
+
+/*MAIN*/
+/*Parte blu*/
+span.my_fs {
+    font-size: .7rem;
+    background-color: #155ab9;
+    padding: .1rem .5rem .1rem .5rem;
+    border-radius: .6rem;
+}
+
+span.my_fs_special {
+    font-size: .7rem;
+    background-color: #155ab9;
+    padding: .24rem .5rem .24rem .5rem;
+    border-radius: 50%;
+}
+
+.my_class-background-color {
+    background-color: #1b72e8;
+}
+
+.my_class-nav-verticale {
+    height: 180vh;
+    width: 65px;
+    background-color: #0f253b;
+    color: white;
+}
+
 button.my_class-button {
     border: solid white;
     border-radius: .3rem;
     border-width: .08rem;
 }
 
-div.my_class-div {
-    width: calc(100vw - 65px);
-}
+
+
 
