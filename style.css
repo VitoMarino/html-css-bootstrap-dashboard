@@ -2,6 +2,13 @@
     font-family: Roboto;
 }
 
+ul {
+    list-style: none;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
 input.my_class-bg-color {
     background-color: #e5e5e5;
     width: 25rem;
@@ -43,13 +50,6 @@ span.my_fs_special {
     border-radius: 50%;
 }
 
-ul {
-    list-style: none;
-    list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-}
-
 .my_class-background-color {
     background-color: #1b72e8;
 }
@@ -65,8 +65,23 @@ ul {
     width: 100vw;
 }
 
-img.my_height {
+img.my_height-display {
     height: 50px;
+}
+
+@media screen and (min-width: 576px) {
+    img.my_class-img2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    img.my_height-display {
+        display: none;
+    }
+    img.my_class-img2 {
+        display: inline-block;
+    }
 }
 
 button.my_class-button {
